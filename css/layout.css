@@ -1,0 +1,302 @@
+/* ---PORTAIT--- */
+@media screen and (orientation: portrait) and (max-aspect-ratio: 1/1) {
+    .grid-box-1 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
+        grid-template-rows: 0.2fr 0.5fr 0.1fr 1fr;
+    }
+    .header-box {
+        grid-area: 1 / 1 / 2 / -1;
+    }
+    .left-side {
+        grid-area: 3 / 2 / 4 / -2;
+        width: 100%;
+        height: 25vh;
+        gap: 10%;
+    }
+    .first_h1 {
+        font-size: 3.5em;
+        font-weight: 900;
+    }
+    .main-lorem-style {
+        line-height: 115%;
+        font-size: 1.2em;
+        font-weight: 100;
+    }
+    .button {
+        width: 150px;
+        height: 50px;
+        white-space: nowrap;
+    }
+    .video_box {
+        grid-area: 2 / 1 / 3 / -1;
+        max-height: 500px;
+    }
+    @media (min-width:500px) and (max-width:800px) {
+        .grid-box-1 {
+            width: 100%;
+            display: grid;
+            grid-template-columns:1fr;
+            grid-template-rows: 0.3fr 0.1fr 0.4fr 0.1fr 0.2fr;
+        }
+        .left-side {
+            grid-area: 5 / 2 / 6 / -2;
+            width: 100%;
+            height: 30vh;
+            row-gap: 15%;
+            padding: 10%;
+            padding-top: 0px;
+        }
+        .video_box {
+            grid-area: 3 / 1 / 4 / -1;
+        }
+        .first_h1 {
+            font-size: 2.3em;
+            letter-spacing: 5px;
+        }
+        .main-lorem-style {
+            font-size: 0.9em;
+        }
+        .button {
+            width: 150px;
+            height: 50px;
+        }
+    }
+    @media (min-width:260px) and (max-width:500px) {
+        .grid-box-1 {
+            width: 100%;
+            display: grid;
+            grid-template-columns:1fr;
+            grid-template-rows: 0.3fr 0.05fr 0.4fr 0.1fr 0.2fr;
+        }
+        .left-side {
+            grid-area: 5 / 1 / 6 / -1;
+            justify-self: center;
+            width: 90%;
+            height: 40vh;
+            padding: 10%;
+            padding-top: 0px;
+            gap: 8%;
+        }
+        .video_box {
+            grid-area: 3 / 1 / 4 / -1;
+        }
+        .first_h1 {
+            width: 95%;
+            font-size: 1.5em;
+            letter-spacing: 1px;
+        }
+        .main-lorem-style {
+            width: 100%;
+            font-size: 0.95em;
+        }
+        .button {
+            width: 150px;
+            height: 50px;
+        }
+    }
+    @media (min-width:52px) and (max-width:260px) {
+        .grid-box-1 {
+            width: 100%;
+            display: grid;
+            grid-template-columns:1fr;
+            grid-template-rows: 0.3fr 0.08fr 0.3fr 0.1fr 0.2fr;
+        }
+        .left-side {
+            grid-area: 5 / 1 / 6 / -1;
+            justify-self: center;
+            width: 90%;
+            height: 30vh;
+            padding: 10%;
+            padding-top: 0px;
+            gap: 5%;
+        }
+        .first_h1 {
+            font-size: 1em;
+            letter-spacing: 1px;
+        }
+        .main-lorem-style {
+            width: 100%;
+            font-size: 0.7em;
+            text-align: justify;
+        }
+        .button {
+            width: 150px;
+            height: 50px;
+        }
+    }
+
+}
+/* ---LANDSCAPE--- */
+@media screen and (orientation:landscape) {
+    .grid-box-1 {
+
+    }
+    .header-box {
+        grid-area: 1 / 2 / 2 / 5;
+    }
+    .left-side {
+        height: 50vh;
+        gap: 7%;
+    }
+    .first_h1 {
+        letter-spacing: 3px;
+        font-size: 3em;
+        font-weight: 900;
+    }
+    .main-lorem-style {
+
+    }
+    .button {
+        width: 150px;
+        height: 50px;
+    }
+    .video_box {
+
+    }
+    @media (max-width:1355px) and (min-width:975px) {
+        .first_h1 {
+            font-size: 2.5em;
+            font-weight: 900;
+        }
+        .main-lorem-style {
+            font-size: 1em;
+        }
+    }
+    @media (min-width:650px) and (max-width:975px) {
+        .first_h1 {
+            font-size: 1.5em;
+            font-weight: 900;
+        }
+        .main-lorem-style {
+            font-size: 0.7em;
+        }
+    }
+    @media (min-width:700px) and (max-width:790px) {
+        .left-side {
+            height: 50vh;
+            gap: 13%;
+        }
+        .first_h1 {
+            font-size: 1.8em;
+            font-weight: 900;
+        }
+        .main-lorem-style {
+            font-size: 0.7em;
+            width: 90%;
+        }
+    }
+
+    @media (aspect-ratio:267dpi) {
+        .first_h1 {
+            font-size: 1em;
+            font-weight: 200;
+        }
+       }
+}
+
+/* BURGER-MENU */
+
+#menu {
+	background: black;
+    border: 1px solid black;
+	color: #FFF;
+	height: 60px;
+	padding-left: 18px;
+}
+#menu ul, #menu li {
+    height: 100%;
+	padding: 0;
+	list-style: none
+}
+#menu ul {
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+
+}
+#menu li {
+	display: inline;
+	position: relative;
+}
+#menu a {
+    height: 100%;
+	display: block;
+	line-height: 45px;
+	padding: 7px 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+    font-weight: 500;
+}
+#menu li a:hover {
+	color: white;
+	background: red;
+}
+#menu li a:active {
+	transform: scale(0.95);
+}
+#menu input {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 45px;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer
+}
+#menu label {
+	display: none;
+	line-height: 45px;
+	text-align: center;
+	position: absolute;
+	left: 35px
+}
+#menu label:before {
+	font-size: 1.6em;
+	content: "\2261"; 
+	margin-left: 20px;
+}
+#menu ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 170px;
+	background: #444444;
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+#menu ul.sub-menus li {
+	display: block;
+	width: 100%;
+}
+#menu ul.sub-menus a {
+	color: red;
+	font-size: 16px;
+}
+#menu li:hover ul.sub-menus {
+	display: block
+}
+#menu ul.sub-menus a:hover{
+	background: red;
+	color: #444444;
+}
+@media screen and (max-width: 922px) {
+    .header-box {
+        grid-area: 1 / 1 / 2 / -1;
+    }
+	#menu {position:relative}
+	#menu ul {width: 50%; background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+	#menu ul.sub-menus {width:100%;}
+	#menu ul.sub-menus a {padding-left:30px;}
+	#menu li {display:block;width:auto;}
+	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
+	#menu input {z-index:4}
+	#menu input:checked + label {color:white}
+	#menu input:checked + label:before {content:"\00d7"}
+	#menu input:checked ~ ul {display:block}
+}

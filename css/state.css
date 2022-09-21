@@ -1,0 +1,166 @@
+line::after, .burger-line::before {
+    z-index: 1000;
+    content: '';
+    background: white;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.header_button:hover{
+    font-size: 12px;
+    background-color: #d60f0f;
+    transform: scale(1.05);
+    border: 0px;
+
+}
+.header_button:active{
+    font-size: 12px;
+    background-color: #d60f0f;
+    transform: scale(0.98);
+    border: 0px solid black;
+}
+
+.discription-button:hover {
+    background-color: #f8f2efb2;
+    transform: scale(1.05);
+    box-shadow: 6px 6px 10px gray;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.discription-button:active{
+    transform: scale(1);
+    box-shadow: 0px 0px 1px gray;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.discription_link:hover{
+    color: #d60f0f;
+    font-weight: bold;
+}
+.pic{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.pic:hover{
+    perspective: 800px;
+    filter: grayscale(0%);
+    transform: scale(1);
+    -webkit-filter: grayscale(0%);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.pic::before{
+     content: 'Product design';
+     font-size: small;
+     position: absolute;
+     bottom: 5%;
+     width: 100%;
+     color: rgb(43, 43, 43);
+     background-color: rgba(240, 248, 255, 0.377);
+     transform: rotateX(-90deg);
+     transition: 0.25s;
+     -webkit-transform: rotateX(-90deg);
+     -moz-transform: rotateX(-90deg);
+     -ms-transform: rotateX(-90deg);
+     -o-transform: rotateX(-90deg);
+     -webkit-transition: 0.25s;
+     -moz-transition: 0.25s;
+     -ms-transition: 0.25s;
+     -o-transition: 0.25s;
+}
+.pic:hover:before{
+    content: 'Product design';
+    transform: rotateX(0deg);
+    bottom: 0%;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+}
+
+.main-ico-style:hover,
+.social-ico-1:hover,
+.social-ico-2:hover,
+.social-ico-3:hover,
+.social-ico-4:hover {
+    cursor: pointer;
+    animation: icoShace .5s forwards linear;
+    -webkit-animation: icoShace .5s forwards linear;
+}
+
+.link_vkladki:link {
+    color: hsl(0deg 0% 50%);
+}
+.link_vkladki:visited {
+    color: hsl(0deg 0% 50%);
+}
+.link_vkladki:hover {
+    color: hsl(249deg, 50%, 36%);
+}
+.link_vkladki:active {
+    color: hsl(0deg 50% 50%);
+}
+.input-style{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid hsl(0deg, 0%, 85%);
+    border-radius: 4px;
+    resize: none;
+    background-color: hsl(0deg, 0%, 95%);
+    float: left;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.input-style:focus {
+    background-color: hsl(0deg, 0%, 100%);
+}
+.input-style:active {
+    background-color: hsl(0deg, 10%, 90%);
+}
+
+@keyframes load-screen1 {
+    0% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      overflow: visible;
+}
+}
+
+
+@keyframes icoShace {
+    25% {
+        transform: translate(4px);
+        -webkit-transform: translate(4px);
+        -moz-transform: translate(4px);
+        -ms-transform: translate(4px);
+        -o-transform: translate(4px);
+}
+    50% {
+        transform: translate(-4px);
+        -webkit-transform: translate(-4px);
+        -moz-transform: translate(-4px);
+        -ms-transform: translate(-4px);
+        -o-transform: translate(-4px);
+}
+    75% {
+        transform: translate(4px);
+        -webkit-transform: translate(4px);
+        -moz-transform: translate(4px);
+        -ms-transform: translate(4px);
+        -o-transform: translate(4px);
+}
+}
