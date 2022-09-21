@@ -127,7 +127,7 @@ line::after, .burger-line::before {
     background-color: hsl(0deg, 10%, 90%);
 }
 
-@keyframes load-screen1 {
+@keyframes load-screen {
     0% {
         opacity: 0;
     }
