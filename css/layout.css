@@ -130,9 +130,7 @@
 }
 /* ---LANDSCAPE--- */
 @media screen and (orientation:landscape) {
-    .grid-box-1 {
 
-    }
     .header-box {
         grid-area: 1 / 2 / 2 / 5;
     }
@@ -145,16 +143,12 @@
         font-size: 3em;
         font-weight: 900;
     }
-    .main-lorem-style {
 
-    }
     .button {
         width: 150px;
         height: 50px;
     }
-    .video_box {
 
-    }
     @media (max-width:1355px) and (min-width:975px) {
         .first_h1 {
             font-size: 2.5em;

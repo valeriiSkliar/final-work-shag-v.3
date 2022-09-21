@@ -25,8 +25,6 @@
     justify-self: center;
     align-self: center;
 }
-.h2_txt {
-}
 .lorem-gallery-style {
     text-align: center;
     font-size: 1.5em;
@@ -53,8 +51,7 @@
     justify-content: center;
     gap: 3%;
 }
-.vrladka-1 {
-}
+
 .main-link-style {
     text-decoration: none;
 }
@@ -62,14 +59,6 @@
     font-size: 0.9em;
     text-decoration: none;
     white-space: nowrap;
-}
-.vrladka-2 {
-}
-.vrladka-3 {
-}
-.vrladka-4 {
-}
-.vrladka-5 {
 }
 .gallery {
     grid-area: 6 / 1 / 7 / -1;

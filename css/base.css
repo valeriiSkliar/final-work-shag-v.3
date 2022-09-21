@@ -107,9 +107,6 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     gap: 1%;
 }
-.bugger_box {
-
-}
 .header_button{
     font-size: 12px;
     text-decoration: none;
