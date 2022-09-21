@@ -803,6 +803,7 @@
     width: 90%;
     justify-self: center;
     align-self: flex-start;
+    opacity: 0.3;
 }
 .gallery-h2-style {
     color: var(--main-color-span1);
