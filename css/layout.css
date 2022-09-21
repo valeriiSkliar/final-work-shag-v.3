@@ -844,7 +844,7 @@
 .gallery {
     grid-area: 6 / 1 / 7 / -1;
     justify-self: center;
-    width: 70%;
+    width: 50%;
     height: 100%;
     column-gap: 0.5%;
     row-gap: 1%;
