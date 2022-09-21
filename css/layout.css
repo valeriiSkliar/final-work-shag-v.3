@@ -21,6 +21,8 @@
     grid-area: 3 / 1 / 4 / -1;
     width: 45%;
     justify-self: end;
+    box-shadow: 1px 2px 20px gray;
+    border: 1px solid grey;
 }
 .first_h1 {
     letter-spacing: 3px;
@@ -29,6 +31,7 @@
 }
 .main-lorem-style {
     font-size: 1em;
+    color: var(--main-color-span1);
 }
 
 .button {
@@ -272,7 +275,7 @@
 /* BURGER-MENU */
 
 #menu {
-	background: black;
+	background: var(--header-color);
     border: 1px solid black;
 	color: #FFF;
 	height: 60px;
@@ -482,6 +485,7 @@
     .main_h2-style {
         font-size: 1.8em;
         line-height: 100%;
+        color: var(--main-color-span1);
     }
     .left-side-2 {
         grid-area: 2 / 2 / 3 / 3;
@@ -489,6 +493,7 @@
         height: 70%;
     }
     .main-lorem-style-2 {
+        color: var(--main-color-span1);
         line-height: 115%;
         font-size: 0.8em;
         font-weight: 100;
@@ -502,10 +507,12 @@
         display: grid;
     }
     .main-h3-style {
+        color: var(--main-color-span2);
         align-self: center;
         font-size: 1em;
     }
     .second-lorem-style {
+        color: var(--main-color-span2);
         line-height: 115%;
         font-weight: 100;
         font-size: 0.8em;
@@ -799,6 +806,7 @@
     align-self: flex-start;
 }
 .gallery-h2-style {
+    color: var(--main-color-span1);
     font-size: 2.5em;
 }
 .main_h2-position {
@@ -807,6 +815,7 @@
     align-self: center;
 }
 .lorem-gallery-style {
+    color: var(--main-color-span2);
     text-align: center;
     font-size: 1.5em;
 }
@@ -1366,6 +1375,7 @@
     
       .lorem-position {
         grid-area: 2 / 2 / 3 / 6;
+        color: var(--main-color-span1);
       }
       .line-position {
         width: 50%;
@@ -1382,6 +1392,7 @@
       .name-discription-position {
         grid-area: 4 / 5 / 5 / 7;
         align-self: flex-end;
+        color: var(--main-color-span1);
       }
     
       .slides {

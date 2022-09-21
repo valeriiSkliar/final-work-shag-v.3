@@ -1,5 +1,6 @@
 :root {
         --main-color-header: #312b2c;
+        --header-color:hsl(350deg 7% 18%);
         --main-color-contact_box-footer:hsl(0deg 0% 10%);
         --main-color-h2-h3: hsl(0deg 0% 36%);
         --main-color-span2: ;

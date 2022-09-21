@@ -65,6 +65,13 @@ body {
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
 }
+.play-button{
+    width: 10%;
+    height: 18%;
+    border: 0px;
+    box-shadow: none;
+}
+
 /* ------------ */
 
 ::selection {
