@@ -138,7 +138,7 @@
             width: 100%;
             display: grid;
             grid-template-columns:1fr;
-            grid-template-rows: 0.3fr 0.05fr 0.4fr 0.1fr 0.2fr;
+            grid-template-rows: 0.3fr 0.05fr 0.4fr 0.01fr 0.2fr;
         }
         .left-side {
             grid-area: 5 / 1 / 6 / -1;
@@ -716,13 +716,13 @@
             .main_h2 {
                 grid-area: 1 / 1 / 2 / 3;
                 line-height: 100%;
-                font-size: 1.5em;
-                width: 90%;
+                font-size: 1.2em;
+                width: 100%;
                 align-self: center;
                 min-height: 50px;
             }
             .main-lorem-style-2 {
-                font-size: 0.8em;
+                font-size: 0.6em;
                 width: 100%;
             }
             .lorem_txt-2 {
@@ -915,13 +915,13 @@
         justify-self: center;
     }
     .gallery-h2-style {
-        font-size: 1.7em;
+        font-size: 1.2em;
     }
     .lorem-gallery-style {
         grid-area: 3 / 1 / 4 / -1;
         width: 90%;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
     .vkladki {
         width: 100%;
