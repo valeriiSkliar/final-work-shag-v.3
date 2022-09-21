@@ -358,7 +358,7 @@
 	background: red;
 	color: #444444;
 }
-@media screen and (max-width: 922px) {
+@media ((screen) and (max-width: 922px)) or (max-aspect-ratio: 1 / 1) {
     .header-box {
         grid-area: 1 / 1 / 2 / -1;
     }
@@ -396,12 +396,12 @@
     gap: 10%;
 }
 .main_h2-style {
-    font-size: 3em;
+    font-size: 2em;
     line-height: 100%;
 }
 .main-lorem-style-2 {
     line-height: 115%;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 100;
 }
 .discription-button, .learn-more-button {
@@ -414,12 +414,12 @@
 }
 .main-h3-style {
     align-self: center;
-    font-size: 1.9em;
+    font-size: 1.5em;
 }
 .second-lorem-style {
     line-height: 115%;
     font-weight: 100;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .main-ico-style {
     background-repeat: no-repeat;
@@ -478,9 +478,9 @@
     grid-area: 6 / 6 / 7 / 7; 
 }
 /* ---LANDSCAPE--- */
-@media screen and (min-width:900px) and (max-width:1400px) {
+@media (min-width:900px) and (max-width:1400px) {
     .main_h2-style {
-        font-size: 2.2em;
+        font-size: 1.8em;
         line-height: 100%;
     }
     .left-side-2 {
@@ -490,7 +490,7 @@
     }
     .main-lorem-style-2 {
         line-height: 115%;
-        font-size: 1.2em;
+        font-size: 0.8em;
         font-weight: 100;
     }
     .discription-button, .learn-more-button {
@@ -503,12 +503,12 @@
     }
     .main-h3-style {
         align-self: center;
-        font-size: 1.9em;
+        font-size: 1em;
     }
     .second-lorem-style {
         line-height: 115%;
         font-weight: 100;
-        font-size: 1.2em;
+        font-size: 0.8em;
     }
     .main-ico-style {
         background-repeat: no-repeat;
@@ -520,8 +520,8 @@
         height: 20px;
     }
     .svg-ico {
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
         stroke: transparent;
         stroke-width: 1px;
     }
@@ -570,7 +570,7 @@
 }
 
 
-@media screen and (min-width:400px) and (max-width:900px) {
+@media screen and (min-width:400px) and (max-width:900px)  {
     .flex-box-2 {
         display: grid;
         grid-template-columns: 0.1fr 1fr 0.1fr;
@@ -679,7 +679,7 @@
         height: 100vh;
     }
     .main_h2-style {
-        font-size: 1em;
+        font-size: 0.9em;
         line-height: 100%;
     }
     .left-side-2 {
@@ -690,7 +690,7 @@
     }
     .main-lorem-style-2 {
         line-height: 115%;
-        font-size: 0.8em;
+        font-size: 0.7em;
         font-weight: 100;
     }
     .discription-button, .learn-more-button {
@@ -710,12 +710,12 @@
     }
     .main-h3-style {
         align-self: center;
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .second-lorem-style {
         line-height: 115%;
         font-weight: 100;
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
     .main-ico-style {
         background-repeat: no-repeat;
@@ -731,6 +731,48 @@
         height: 20px;
         stroke: transparent;
         stroke-width: 1px;
+    }
+        
+    .icon1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .icon2 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .icon3 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+    .icon4 {
+        grid-area: 7 / 1 / 8 / 2;
+    }
+    .h3-txt-1 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    .h3-txt-2 {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .h3-txt-3 {
+        grid-area: 5 / 2 / 6 / 3;
+    }
+    .h3-txt-4 {
+        grid-area: 7 / 2 / 8 / 3;
+    }
+    
+    .second-lorem-1 {
+        width: 90%;
+        grid-area: 2 / 1 / 3 / 3;
+    }
+    .second-lorem-2 {
+        width: 90%;
+        grid-area: 4 / 1 / 5 / 3;
+    }
+    .second-lorem-3 {
+        width: 90%;
+        grid-area: 6 / 1 / 7 / 3;
+    }
+    .second-lorem-4 {
+        width: 90%;
+        grid-area: 8 / 1 / 9 / 3; 
     }
 }
 /* --------------------- */
@@ -1031,7 +1073,7 @@
         .flex-box-3 {
             display: grid;
             grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: 0.05fr 0.1fr 0.1fr 0.05fr 0.1fr 0.4fr 0.1fr;
+            grid-template-rows: 0.05fr 0.1fr 0.1fr 0.05fr 0.1fr 0.6fr 0.1fr;
             width: 100%;
             height: 100vh;
         }
@@ -1041,11 +1083,11 @@
             justify-self: center;
         }
         .gallery-h2-style {
-            font-size: 2em;
+            font-size: 1.5em;
         }
         .lorem-gallery-style {
             text-align: center;
-            font-size: 1em;
+            font-size: 0.8em;
         }
         .vkladki {
             width: 100%;
@@ -1058,14 +1100,14 @@
             gap: 1%;
         }
         .link_vkladki {
-            font-size: 1em;
+            font-size: 0.8em;
             text-decoration: none;
             white-space: nowrap;
         }
         .gallery {
             grid-area: 6 / 1 / 7 / -1;
-            width: 90%;
-            height: 80%;
+            width: 60%;
+            height: 100%;
             column-gap: 0.5%;
             row-gap: 1%;
             display: grid;
@@ -1102,10 +1144,12 @@
   .h2-position {
     grid-area: 1 / 2 / 2 / 5;
     align-self: center;
+    font-size: 1em;
   }
 
   .lorem-position {
     grid-area: 2 / 2 / 3 / 5;
+    font-size: 0.6em;
   }
   .line-position {
     width: 50%;
@@ -1116,11 +1160,13 @@
   .name-position {
     grid-area: 2 / 3 / 3 / 4;
     align-self: flex-end;
+    font-size: 0.7em;
   }
 
   .name-discription-position {
     grid-area: 3 / 3 / 4 / 6;
     align-self: center;
+    font-size: 0.6em;
   }
   /* ----------------- */
   .flex-box-4 input {
@@ -1268,7 +1314,7 @@
     .slides {
         grid-area: 4 / 2 / 5 / 6;
         background-position: center;
-        width: 80%;
+        width: 50%;
         justify-self: center;
     }
     .line-position {
@@ -1427,7 +1473,7 @@
     .line-position {
         width: 50%;
         grid-area: 3 / 2 / 4 / 3;
-        align-self: center;
+        align-self: flex-start;
         border: 0.5px red solid;
     }
 
@@ -1524,12 +1570,13 @@
 }
 .subscribe-button {
     padding-top: 10px; ;
-    height: 100%;
+    height: 50px;
     width: 20%;
     white-space: nowrap;
 }
 .input-subscribe{
-    width: 75%;
+    width:55%;
+    height: 50px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1630,9 +1677,10 @@ padding-top: 15px;
     grid-column: 2/5;
     grid-row: 1/2;
     align-self: flex-end;
-    font-size: 3em;
+    font-size: 2em;
 }
 .lorem-txt-last{
+    font-size: 0.6em;
     width: 100%;
     grid-column: 2/6;
     grid-row: 2/3;
@@ -1720,6 +1768,7 @@ footer{
     grid-row: 10/11;
     color: white;
     align-self: center;
+    font-size: 0.6em;
 }
 .social-ico-box{
     z-index: 10;
