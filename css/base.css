@@ -13,6 +13,16 @@ html,body{
 body {
     cursor: url(../img/cursor.png), default;
     overflow-x: hidden;
+    animation: body 5s forwards linear;
+    -webkit-animation: body 5s forwards linear;
+}
+@keyframes body {
+    from {
+        overflow-y: hidden;
+    }
+    to {
+        overflow-y: auto; 
+    }
 }
 .wrapper {
     overflow: hidden;
