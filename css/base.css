@@ -89,6 +89,9 @@ body::-webkit-scrollbar-thumb{
 .first-section {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 /* .grid-box-1 {
     display: grid;
